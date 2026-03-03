@@ -1,0 +1,79 @@
+# Azure DevOps Pipeline YAML Structure
+# Generated from: kolappan88_Kols-1st-test_Saravanan-Pipeline_2.json
+name: $(Date:yyyyMMdd).$(Rev:r)
+
+trigger: none
+
+resources:
+  pipelines:
+    - pipeline: _Kols-1st-test
+      source: Kols-1st-test
+      trigger: none
+
+stages:
+  # Stage 1 Environment
+  - stage: STAGE_1
+    displayName: 'Stage 1'
+    condition: succeeded()
+    jobs:
+    - deployment: Deploy_STAGE_1
+      displayName: 'Deploy to Stage 1'
+      pool:
+        name: 'Default'
+      environment: 'Stage 1'
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            - task: UsePythonVersion@0
+              displayName: 'Use Python 3.x'
+              inputs:
+                versionSpec: '3.x'
+                disableDownloadFromRegistry: 'true'
+                allowUnstable: 'false'
+                githubToken: ''
+                addToPath: 'true'
+                architecture: 'x64'
+
+            - task: DotNetCoreCLI@2
+              displayName: 'dotnet build'
+              inputs:
+                ConnectedServiceName: ''
+                command: 'build'
+                publishWebProjects: 'true'
+                projects: '*.csproj'
+                custom: ''
+                arguments: '--outputdir=/home/'
+                restoreArguments: ''
+                publishTestResults: 'true'
+                testRunTitle: ''
+                zipAfterPublish: 'true'
+                modifyOutputPath: 'true'
+                selectOrConfig: 'select'
+                feedRestore: ''
+                includeNuGetOrg: 'true'
+                nugetConfigPath: ''
+                externalEndpoints: ''
+                noCache: 'false'
+                packagesDirectory: ''
+                verbosityRestore: 'Normal'
+                searchPatternPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+                nuGetFeedType: 'internal'
+                feedPublish: ''
+                publishPackageMetadata: 'true'
+                externalEndpoint: ''
+                searchPatternPack: '**/*.csproj'
+                configurationToPack: '$(BuildConfiguration)'
+                outputDir: '$(Build.ArtifactStagingDirectory)'
+                nobuild: 'false'
+                includesymbols: 'false'
+                includesource: 'false'
+                versioningScheme: 'off'
+                versionEnvVar: ''
+                requestedMajorVersion: '1'
+                requestedMinorVersion: '0'
+                requestedPatchVersion: '0'
+                buildProperties: ''
+                verbosityPack: 'Normal'
+                workingDirectory: '$(System.DefaultWorkingDirectory)/_Kols-1st-test'
+                requestTimeout: '300000'

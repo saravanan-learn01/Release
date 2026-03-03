@@ -1,0 +1,35 @@
+# Azure DevOps Pipeline YAML Structure
+# Generated from: kolappan88_Kols-1st-test_New_release_pipeline_1.json
+name: $(Date:yyyyMMdd).$(Rev:r)
+
+trigger: none
+
+resources:
+  pipelines:
+    # No artifacts found
+
+stages:
+  # Stage 1 Environment
+  - stage: STAGE_1
+    displayName: 'Stage 1'
+    condition: succeeded()
+    jobs:
+    - deployment: Deploy_STAGE_1
+      displayName: 'Deploy to Stage 1'
+      pool:
+        name: 'Default'
+      environment: 'Stage 1'
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            - task: CmdLine@2
+              displayName: 'Command Line Script'
+              inputs:
+                script: |
+                  echo Write your commands here
+                  
+                  echo Hello world
+                  
+                workingDirectory: ''
+                failOnStderr: 'false'

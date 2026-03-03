@@ -1,0 +1,29 @@
+# Azure DevOps Pipeline YAML Structure
+# Generated from: kolappan88_Kols-1st-test_New_release_pipeline_1_6.json
+name: $(Date:yyyyMMdd).$(Rev:r)
+
+trigger: none
+
+resources:
+  pipelines:
+    - pipeline: DSA
+      source: dsa
+      trigger: none
+
+stages:
+  # Stage 2 Environment
+  - stage: STAGE_2
+    displayName: 'Stage 2'
+    condition: succeeded()
+    jobs:
+    - deployment: Deploy_STAGE_2
+      displayName: 'Deploy to Stage 2'
+      pool:
+        name: 'Azure Pipelines'
+      environment: 'Stage 2'
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            # No workflow tasks defined for this environment
+            - script: echo 'No tasks defined for Stage 2'
