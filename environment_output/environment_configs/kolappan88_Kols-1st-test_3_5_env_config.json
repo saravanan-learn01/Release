@@ -1,0 +1,152 @@
+{
+  "pipeline_info": {
+    "name": "#3",
+    "id": 5,
+    "path": "\\Maverics"
+  },
+  "environments": [
+    {
+      "name": "QA-DSA",
+      "rank": 2,
+      "preDeployApprovals": {
+        "approvers": [
+          {
+            "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+            "displayName": "Dhyaneshwaran ravi",
+            "email": "rxdheena143@gmail.com"
+          }
+        ],
+        "options": {
+          "requiredApproverCount": null,
+          "timeoutInMinutes": 0,
+          "releaseCreatorCanBeApprover": false,
+          "executionOrder": "beforeGates"
+        }
+      },
+      "postDeployApprovals": {
+        "approvers": [],
+        "options": null
+      },
+      "preDeploymentGates": null,
+      "postDeploymentGates": {
+        "enabled": true,
+        "timeout": 1440,
+        "samplingInterval": 15,
+        "stabilizationTime": 5,
+        "gates": [
+          {
+            "taskId": "f1e4b0e6-017e-4819-8a48-ef19ae96e289",
+            "name": "Query Work Items",
+            "version": "0.*",
+            "enabled": true,
+            "inputs": {
+              "queryId": "0b28c226-4fc1-4b9f-98ef-72496a67ac87",
+              "maxThreshold": "0",
+              "minThreshold": "0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "DEV",
+      "rank": 1,
+      "preDeployApprovals": {
+        "approvers": [
+          {
+            "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+            "displayName": "Dhyaneshwaran ravi",
+            "email": "rxdheena143@gmail.com"
+          }
+        ],
+        "options": {
+          "requiredApproverCount": 0,
+          "timeoutInMinutes": 43200,
+          "releaseCreatorCanBeApprover": true,
+          "executionOrder": "beforeGates"
+        }
+      },
+      "postDeployApprovals": {
+        "approvers": [
+          {
+            "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+            "displayName": "Dhyaneshwaran ravi",
+            "email": "rxdheena143@gmail.com"
+          }
+        ],
+        "options": {
+          "requiredApproverCount": 0,
+          "timeoutInMinutes": 43200,
+          "releaseCreatorCanBeApprover": true,
+          "executionOrder": "afterSuccessfulGates"
+        }
+      },
+      "preDeploymentGates": {
+        "enabled": true,
+        "timeout": 1440,
+        "samplingInterval": 15,
+        "stabilizationTime": 5,
+        "gates": [
+          {
+            "taskId": "f1e4b0e6-017e-4819-8a48-ef19ae96e289",
+            "name": "Query Work Items",
+            "version": "0.*",
+            "enabled": true,
+            "inputs": {
+              "queryId": "16d5a7d9-bc76-487b-9293-be43d72d706d",
+              "maxThreshold": "0",
+              "minThreshold": "0"
+            }
+          },
+          {
+            "taskId": "9c3e8943-130d-4c78-ac63-8af81df62dfb",
+            "name": "new api think",
+            "version": "1.*",
+            "enabled": true,
+            "inputs": {
+              "connectedServiceNameSelector": "connectedServiceName",
+              "connectedServiceName": "e67df3cb-2975-454b-858c-552ba742842d",
+              "connectedServiceNameARM": "",
+              "method": "POST",
+              "headers": "{\n\"Content-Type\":\"application/json\", \n\"PlanUrl\": \"$(system.CollectionUri)\", \n\"ProjectId\": \"$(system.TeamProjectId)\", \n\"HubName\": \"$(system.HostType)\", \n\"PlanId\": \"$(system.PlanId)\", \n\"JobId\": \"$(system.JobId)\", \n\"TimelineId\": \"$(system.TimelineId)\", \n\"TaskInstanceId\": \"$(system.TaskInstanceId)\", \n\"AuthToken\": \"$(system.AccessToken)\"\n}",
+              "body": "",
+              "urlSuffix": "",
+              "waitForCompletion": "false",
+              "successCriteria": ""
+            }
+          },
+          {
+            "taskId": "8ba74703-e94f-4a35-814e-fc21f44578a2",
+            "name": "Check Policy Compliance",
+            "version": "0.*",
+            "enabled": true,
+            "inputs": {
+              "ConnectedServiceName": "bdb09745-7270-4ed1-bb2f-2e355a939483",
+              "ResourceGroupName": "Dhyanesh",
+              "Resources": "",
+              "RetryDuration": "00:02:00"
+            }
+          },
+          {
+            "taskId": "99a72e7f-25e4-4576-bf38-22a42b995ed8",
+            "name": "Query Azure Monitor alerts",
+            "version": "1.*",
+            "enabled": true,
+            "inputs": {
+              "connectedServiceNameARM": "bdb09745-7270-4ed1-bb2f-2e355a939483",
+              "ResourceGroupName": "Dhyanesh",
+              "filterType": "none",
+              "resource": "",
+              "alertRule": "",
+              "severity": "Sev0,Sev1,Sev2,Sev3,Sev4",
+              "timeRange": "1h",
+              "alertState": "Acknowledged,New",
+              "monitorCondition": "Fired"
+            }
+          }
+        ]
+      },
+      "postDeploymentGates": null
+    }
+  ]
+}

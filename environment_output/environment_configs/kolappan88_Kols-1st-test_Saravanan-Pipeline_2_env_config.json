@@ -1,0 +1,45 @@
+{
+  "pipeline_info": {
+    "name": "Saravanan-Pipeline",
+    "id": 2,
+    "path": "\\"
+  },
+  "environments": [
+    {
+      "name": "Stage 1",
+      "rank": 1,
+      "preDeployApprovals": {
+        "approvers": [
+          {
+            "id": "1d83d2e8-d47c-6aea-b5b1-4e840819dcb1",
+            "displayName": "kolappan m",
+            "email": "kolappan88@outlook.com"
+          }
+        ],
+        "options": {
+          "requiredApproverCount": 0,
+          "timeoutInMinutes": 43200,
+          "releaseCreatorCanBeApprover": false,
+          "executionOrder": "beforeGates"
+        }
+      },
+      "postDeployApprovals": {
+        "approvers": [
+          {
+            "id": "1d83d2e8-d47c-6aea-b5b1-4e840819dcb1",
+            "displayName": "kolappan m",
+            "email": "kolappan88@outlook.com"
+          }
+        ],
+        "options": {
+          "requiredApproverCount": null,
+          "timeoutInMinutes": 0,
+          "releaseCreatorCanBeApprover": false,
+          "executionOrder": "afterSuccessfulGates"
+        }
+      },
+      "preDeploymentGates": null,
+      "postDeploymentGates": null
+    }
+  ]
+}

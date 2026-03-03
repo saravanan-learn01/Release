@@ -1,0 +1,551 @@
+{
+    "source": "userInterface",
+    "revision": 3,
+    "description": null,
+    "createdBy": {
+        "displayName": "Dhyaneshwaran ravi",
+        "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+            }
+        },
+        "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+        "uniqueName": "rxdheena143@gmail.com",
+        "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3",
+        "descriptor": "msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+    },
+    "createdOn": "2026-02-23T13:04:56.643Z",
+    "modifiedBy": {
+        "displayName": "Dhyaneshwaran ravi",
+        "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+            }
+        },
+        "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+        "uniqueName": "rxdheena143@gmail.com",
+        "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3",
+        "descriptor": "msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+    },
+    "modifiedOn": "2026-02-23T13:10:58.927Z",
+    "isDeleted": false,
+    "isDisabled": false,
+    "lastRelease": {
+        "id": 10,
+        "name": "Release-1",
+        "artifacts": [],
+        "_links": {},
+        "description": "",
+        "releaseDefinition": {
+            "id": 7,
+            "projectReference": null,
+            "_links": {}
+        },
+        "createdOn": "2026-02-23T13:19:15.62Z",
+        "createdBy": {
+            "displayName": "Dhyaneshwaran ravi",
+            "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+            "_links": {
+                "avatar": {
+                    "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+                }
+            },
+            "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+            "uniqueName": "rxdheena143@gmail.com",
+            "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3",
+            "descriptor": "msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+        }
+    },
+    "variables": {},
+    "variableGroups": [],
+    "environments": [
+        {
+            "id": 10,
+            "name": "Dev",
+            "rank": 1,
+            "owner": {
+                "displayName": "Dhyaneshwaran ravi",
+                "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+                    }
+                },
+                "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+                "uniqueName": "rxdheena143@gmail.com",
+                "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3",
+                "descriptor": "msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 35
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "beforeGates"
+                }
+            },
+            "deployStep": {
+                "id": 38
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": false,
+                        "isNotificationOn": false,
+                        "approver": {
+                            "displayName": "saravanan s",
+                            "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/a9309e89-c192-4208-847e-d2f3c9bb8051",
+                            "_links": {
+                                "avatar": {
+                                    "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.NmIzODNiNzMtNjZhMy03NjQ2LWEwNWMtNDMzOTE1YTg2ZTky"
+                                }
+                            },
+                            "id": "a9309e89-c192-4208-847e-d2f3c9bb8051",
+                            "uniqueName": "saravananlearning01@outlook.com",
+                            "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.NmIzODNiNzMtNjZhMy03NjQ2LWEwNWMtNDMzOTE1YTg2ZTky",
+                            "descriptor": "msa.NmIzODNiNzMtNjZhMy03NjQ2LWEwNWMtNDMzOTE1YTg2ZTky"
+                        },
+                        "id": 43
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": true,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "afterSuccessfulGates"
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": "none"
+                        },
+                        "agentSpecification": null,
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 4,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": "agentBasedDeployment",
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "taskId": "ac4ee482-65da-4485-a532-7b085873e532",
+                            "version": "4.*",
+                            "name": "Maven pom.xml",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "environment": {},
+                            "inputs": {
+                                "ConnectedServiceName": "",
+                                "mavenPOMFile": "pom.xml",
+                                "goals": "package",
+                                "options": "",
+                                "publishJUnitResults": "true",
+                                "testResultsFiles": "**/surefire-reports/TEST-*.xml",
+                                "testRunTitle": "",
+                                "allowBrokenSymbolicLinks": "true",
+                                "codeCoverageTool": "None",
+                                "classFilter": "",
+                                "classFilesDirectories": "",
+                                "srcDirectories": "",
+                                "failIfCoverageEmpty": "false",
+                                "restoreOriginalPomXml": "false",
+                                "javaHomeSelection": "JDKVersion",
+                                "jdkVersion": "default",
+                                "jdkUserInputPath": "",
+                                "jdkArchitecture": "x64",
+                                "mavenVersionSelection": "Default",
+                                "mavenPath": "",
+                                "mavenSetM2Home": "false",
+                                "mavenOpts": "-Xmx1024m",
+                                "mavenFeedAuthenticate": "false",
+                                "skipEffectivePom": "false",
+                                "sqAnalysisEnabled": "false",
+                                "isJacocoCoverageReportXML": "false",
+                                "sqMavenPluginVersionChoice": "latest",
+                                "checkstyleAnalysisEnabled": "false",
+                                "pmdAnalysisEnabled": "false",
+                                "findbugsAnalysisEnabled": "false",
+                                "spotBugsAnalysisEnabled": "false",
+                                "spotBugsMavenPluginVersion": "4.5.3.0",
+                                "spotBugsGoal": "spotbugs",
+                                "spotBugsFailWhenBugsFound": "true"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": "event",
+                    "value": "",
+                    "result": null
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 0,
+                "url": "https://vsrm.dev.azure.com/kolappan88/d5124843-dc6a-461b-8bfc-4bcdae25671e/_apis/Release/releases/0",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "BoardsEnvironmentType": {
+                    "$type": "System.String",
+                    "$value": "unmapped"
+                },
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 42,
+                "gatesOptions": {
+                    "isEnabled": true,
+                    "timeout": 1440,
+                    "samplingInterval": 15,
+                    "stabilizationTime": 5,
+                    "minimumSuccessDuration": 0
+                },
+                "gates": [
+                    {
+                        "tasks": [
+                            {
+                                "taskId": "f1e4b0e6-017e-4819-8a48-ef19ae96e289",
+                                "version": "0.*",
+                                "name": "Query Work Items",
+                                "enabled": true,
+                                "alwaysRun": false,
+                                "continueOnError": false,
+                                "timeoutInMinutes": 0,
+                                "retryCountOnTaskFailure": 0,
+                                "definitionType": "task",
+                                "overrideInputs": {},
+                                "condition": "succeeded()",
+                                "environment": {},
+                                "inputs": {
+                                    "queryId": "0b28c226-4fc1-4b9f-98ef-72496a67ac87",
+                                    "maxThreshold": "0",
+                                    "minThreshold": "0"
+                                }
+                            }
+                        ],
+                        "isGenerated": false
+                    }
+                ]
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/kolappan88/_apis/public/Release/badge/d5124843-dc6a-461b-8bfc-4bcdae25671e/7/10"
+        },
+        {
+            "id": 11,
+            "name": "QA",
+            "rank": 2,
+            "owner": {
+                "displayName": "Dhyaneshwaran ravi",
+                "url": "https://spsprodcin1.vssps.visualstudio.com/Abb9c2774-1d86-4fa8-b0da-7df2be406255/_apis/Identities/e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+                    }
+                },
+                "id": "e5d732d6-6b6c-4449-9aab-a7ab4b9fdb83",
+                "uniqueName": "rxdheena143@gmail.com",
+                "imageUrl": "https://dev.azure.com/kolappan88/_apis/GraphProfile/MemberAvatars/msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3",
+                "descriptor": "msa.ZTc0MjAzNTItMzYyYS03NDZjLTkxMmItZTFhZGY0MDEyNWE3"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 36
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "beforeGates"
+                }
+            },
+            "deployStep": {
+                "id": 37
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 40
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "afterSuccessfulGates"
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": "none"
+                        },
+                        "agentSpecification": null,
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 1,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeededOrFailed()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": "agentBasedDeployment",
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "taskId": "1d341bb0-2106-458c-8422-d00bcea6512a",
+                            "version": "1.*",
+                            "name": "Copy Publish Artifact: Dev and qa",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "environment": {},
+                            "inputs": {
+                                "CopyRoot": "",
+                                "Contents": "12",
+                                "ArtifactName": "Dev and qa",
+                                "ArtifactType": "FilePath",
+                                "TargetPath": "\\\\my\\share\\$(Build.DefinitionName)\\$(Build.BuildNumber)"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "Dev",
+                    "conditionType": "environmentState",
+                    "value": "4",
+                    "result": null
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 0,
+                "url": "https://vsrm.dev.azure.com/kolappan88/d5124843-dc6a-461b-8bfc-4bcdae25671e/_apis/Release/releases/0",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "BoardsEnvironmentType": {
+                    "$type": "System.String",
+                    "$value": "unmapped"
+                },
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/kolappan88/_apis/public/Release/badge/d5124843-dc6a-461b-8bfc-4bcdae25671e/7/11"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "d5124843-dc6a-461b-8bfc-4bcdae25671e:4",
+            "type": "Build",
+            "alias": "_dsa",
+            "definitionReference": {
+                "defaultVersionBranch": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionTags": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestType",
+                    "name": "Latest"
+                },
+                "definition": {
+                    "id": "4",
+                    "name": "dsa"
+                },
+                "definitions": {
+                    "id": "",
+                    "name": ""
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "project": {
+                    "id": "d5124843-dc6a-461b-8bfc-4bcdae25671e",
+                    "name": "Kols-1st-test"
+                },
+                "repository": {
+                    "id": "",
+                    "name": ""
+                },
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/kolappan88/_permalink/_build/index?collectionId=2721bfd1-5724-4a5a-aa41-6ae72c2944ca&projectId=d5124843-dc6a-461b-8bfc-4bcdae25671e&definitionId=4",
+                    "name": ""
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "ReleaseNew"
+        },
+        "IntegrateBoardsWorkItems": {
+            "$type": "System.String",
+            "$value": "False"
+        },
+        "IntegrateJiraWorkItems": {
+            "$type": "System.String",
+            "$value": "false"
+        }
+    },
+    "id": 7,
+    "name": "dev and qa",
+    "path": "\\Maverics",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/kolappan88/d5124843-dc6a-461b-8bfc-4bcdae25671e/_apis/Release/definitions/7",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/kolappan88/d5124843-dc6a-461b-8bfc-4bcdae25671e/_apis/Release/definitions/7"
+        },
+        "web": {
+            "href": "https://dev.azure.com/kolappan88/d5124843-dc6a-461b-8bfc-4bcdae25671e/_release?definitionId=7"
+        }
+    }
+}
